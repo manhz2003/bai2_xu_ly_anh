@@ -13,7 +13,7 @@ import java.io.IOException;
 public class LaplacianExample {
     public static void main(String[] args) throws IOException {
         // Đọc ảnh
-        BufferedImage input = ImageIO.read(new File("/Users/nguyenthemanh/Downloads/anhdemo.jpg"));
+        BufferedImage input = ImageIO.read(new File("/Users/nguyenthemanh/Downloads/hinh-anh-nguoi-thanh-cong-inkythuatso-06-15-04-06.jpg"));
 
         // Chuyển đổi sang ảnh grayscale
         GrayF32 gray = ConvertBufferedImage.convertFromSingle(input, null, GrayF32.class);
